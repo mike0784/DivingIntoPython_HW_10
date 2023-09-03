@@ -30,3 +30,5 @@ class parsingDir:
 if __name__ == "__main__":
     file = os.getcwd() + "\\Result.json"
     obj = parsingDir("i:\\DOS", file)
+    obj.listDirectories()
+    obj.writeToJSON()
